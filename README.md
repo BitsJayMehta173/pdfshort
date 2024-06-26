@@ -3,6 +3,8 @@ using the command below.
 
 pip install reportlab
 
+main file:-pdfshort.py
+output.csv contains the dictionary for the book content.
 
 AIM:
 
@@ -19,3 +21,5 @@ It is time consuming to decompress and process but this compression is needed fo
 In further steps i will compress csv file data and make a new layer of compression on it which might decrease its size by 30 to 40 percent
 
 as it is compression it also displays a property of cryptography as it is not easily readable as it is spreaded in compression layer.
+
+rest of the display properties except for the text part needs to processed seperately somewhere to have a exact copy of pdf but for now i am working on the text part only.
