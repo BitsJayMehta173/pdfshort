@@ -34,7 +34,6 @@ def extract_text_from_pdf(pdf_path):
 
         filename = 'output.csv'
 
-        # Writing to csv file
         with open(filename, 'w', newline='') as file:
             writer = csv.writer(file)
             for key, value in dictionary.items():
