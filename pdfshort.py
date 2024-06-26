@@ -54,7 +54,6 @@ def extract_text_from_pdf(pdf_path):
         # print(dictionary)
     return words
 
-# Path to your PDF file
+
 pdf_path = 'iaf.pdf'
 text = extract_text_from_pdf(pdf_path)
-# print(text)
