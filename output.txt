@@ -1,0 +1,11 @@
+A 0 different 1 popular 2 choice 3 is 4 the 5 activation 6 function 7 for 8 the 9 rectified 10 linear 11 unit 12 (ReLU). 13 It
+does 14 not 15 allow 16 for 17 negative 18 values 19 and 20 floors 21 them 22 at 23 0, 24 but 25 does 26 not 27 alter 28 the 29 value 30 of 31 positive
+values. 32 It 33 is 34 simpler 35 and 36 faster 37 to 38 compute 39 than 40 tanh(x) 41 or 42 sigmoid(x).
+You 43 could 44 view 45 each 46 hidden 47 node 48 as 49 a 50 feature 51 detector. 52 For 53 a 54 certain 55 configurations 56 of 57 input
+node 58 values, 59 it 60 is 61 turned 62 on, 63 for 64 others 65 it 66 is 67 turned 68 off. 69 Advocates 70 of 71 neural 72 networks 73 claim 74 that
+the 75 use 76 of 77 hidden 78 nodes 79 obviates 80 (or 81 at 82 least 83 drastically 84 reduces) 85 the 86 need 87 for 88 feature 89 engineer 90 ing:
+Instead 91 of 92 manually 93 detecting 94 useful 95 patterns 96 in 97 input 98 values, 99 training 100 of 101 the 102 hidden 103 nodes
+discovers 104 them 105 automatically.
+We 106 do 107 not 108 have 109 to 110 stop 111 at 112 a 113 single 114 hidden 115 layer. 116 The 117 currently 118 fashionable 119 name 120 deep
+learning 121 for 122 neural 123 networks 124 stems 125 from 126 the 127 fact 128 that 129 often 130 better 131 performance 132 can 133 be 134 achieved
+by 135 deeply 136 stacking 137 together 138 layers 139 and 140 layers 141 of 142 hidden 143 
