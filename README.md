@@ -1,5 +1,10 @@
+first install the reportlab library
+using the command below.
+
 pip install reportlab
 
+
+AIM:
 
 I am trying to compress a pdf file by making a dictionary and mapping its index
 
