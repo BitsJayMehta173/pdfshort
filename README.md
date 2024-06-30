@@ -1,3 +1,15 @@
+Updates:
+
+Decreased the size upto 65 to 70% before we had 1.16MB file for CSV file now we have added .bin file to store the index in 8bit binary format which has shown us decrease in size of CSV file to 295KB and calculating all the .bin file size is 304KB which comes around 600KB from 1.16MB to 600KB compression is seen.
+
+Further Needs:
+I need to make a new custom file extension which stores all .bin file in a single format and divides it into appropriate tables to recognize in better way.
+Further Look into maximum words a page can contain needs to be viewed as we have taken 100 as the threshold point here and then taking modulo but as we are using 8bit format we can store upto 255 words so we need to look further to see if it can cross 255 words or not if yes we need to make a extra .bin file for each page with the last mark and connect both the files together
+
+We are going towards a hard coded form for right now but soon we can make a intelligent dfs way to make the optimization better.
+
+----------------
+
 first install the reportlab library
 using the command below.
 
