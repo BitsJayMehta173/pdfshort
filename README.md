@@ -15,8 +15,12 @@ using the command below.
 
 pip install reportlab
 
+----------------
+
 main file:-pdfshort.py
 output.csv contains the dictionary for the book content.
+
+----------------
 
 AIM:
 
