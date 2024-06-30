@@ -6,6 +6,8 @@ Further Needs:
 I need to make a new custom file extension which stores all .bin file in a single format and divides it into appropriate tables to recognize in better way.
 Further Look into maximum words a page can contain needs to be viewed as we have taken 100 as the threshold point here and then taking modulo but as we are using 8bit format we can store upto 255 words so we need to look further to see if it can cross 255 words or not if yes we need to make a extra .bin file for each page with the last mark and connect both the files together
 
+We can further decrease the size by adding additional information for each byte for e.g digit 1 is 00000001 all starting 7 bits are useless we can use HUFFMAN Coding and take the information to additional .bin file and combine both. It can compress further 5%
+
 We are going towards a hard coded form for right now but soon we can make a intelligent dfs way to make the optimization better.
 
 ----------------
