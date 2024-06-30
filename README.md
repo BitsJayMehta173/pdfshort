@@ -30,3 +30,4 @@ I am working on own custom file extension which will store data in structured wa
 suppose a word occurs in more than 100th index then the size of the integer can also cause in memory consumption so a differentiatior needs to be present if we want to use modulo for it
 i will work on dictionary mapping which will take page wise storage structure like a sliding window then we will not have to take the dictionary key multiple time while we can access the index in any order which will only take limited space just as much the next button causes.
 
+one more structure can be sorted technique in which occurence comes first all the sorted this will decrease the space by O(n)
