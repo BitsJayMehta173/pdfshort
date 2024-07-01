@@ -10,6 +10,19 @@ We can further decrease the size by adding additional information for each byte 
 
 We are going towards a hard coded form for right now but soon we can make a intelligent dfs way to make the optimization better.
 
+Why the need of file extension??
+As we know the name of the file is string format itself which might also take space in our drive if we have so many files with number named we are taking space for each character of each file which is unnecessary so we need to make our own file extension which processes the .bin file and combines it we will store in array format again.
+Rather the file system can also use memory address to store the file instead of filename string to save space.
+
+I am working on the image compression using the same technique but the compression is not yet better than the existing encoding methods I am trying to optimize it as we also have images in pdf which needs to be compressed too.
+
+Very Far Future Updates:
+
+We can make a text and image recognizer for pdfs which will seperate out the blocks which has image and text seperately while we also have white spaces in the pdfs those will be ignored and the square or rectangular blocks will only be encoded by our compression method. aKA Intelligent Compressor.
+But still the image compression needs more optimization and compression i am trying on Negation technique or Negative technique which i came across while wondering i my mind i dont know if such method exist or not but i am trying to compress a HD images for now. Will Update Soon.
+
+I wonder if you can give me feedbacks if you have some major ideas in the fields. You are most Welcome.
+
 ----------------
 
 first install the reportlab library
